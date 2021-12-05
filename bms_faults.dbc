@@ -1,0 +1,246 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: BMS
+VAL_TABLE_ BMS_FaultCode 64 "BMS_w033_ChargingTimeout" 63 "BMS_w033_ChargingTimeout" 62 "BMS_f032_ChargerEnabled" 61 "BMS_f032_ChargerEnabled" 60 "BMS_a031_StartupFailure" 59 "BMS_a031_StartupFailure" 58 "BMS_c030_CurrentFailsafeMode" 57 "BMS_c030_CurrentFailsafeMode" 56 "BMS_c029_VoltageFailsafeMode" 55 "BMS_c029_VoltageFailsafeMode" 54 "BMS_w028_InverterSDCOpenRequest" 53 "BMS_w028_InverterSDCOpenRequest" 52 "BMS_f027_VehicleIdle" 51 "BMS_f027_VehicleIdle" 50 "BMS_w026_SelfTestError" 49 "BMS_w026_SelfTestError" 48 "BMS_w025_isoSPIPECError" 47 "BMS_w025_isoSPIPECError" 46 "BMS_a024_CellHighImpedance" 45 "BMS_a024_CellHighImpedance" 44 "BMS_w023_PowerStageFailure" 43 "BMS_w023_PowerStageFailure" 42 "BMS_a022_AuxMIA" 41 "BMS_a022_AuxMIA" 40 "BMS_f021_BalancingActive" 39 "BMS_f021_BalancingActive" 38 "BMS_a020_PowerStageOpen" 37 "BMS_a020_PowerStageOpen" 36 "BMS_c019_CurrentSensorOORL" 35 "BMS_c019_CurrentSensorOORL" 34 "BMS_c018_CurrentSensorOORH" 33 "BMS_c018_CurrentSensorOORH" 32 "BMS_w017_DischargeCompleted" 31 "BMS_w017_DischargeCompleted" 30 "BMS_w016_ChargeCompleted" 29 "BMS_w016_ChargeCompleted" 28 "BMS_w015_ChargerFault" 27 "BMS_w015_ChargerFault" 26 "BMS_w014_DischargeCurrentLimitOver" 25 "BMS_w014_DischargeCurrentLimitOver" 24 "BMS_w013_ChargeCurrentLimitOver" 23 "BMS_w013_ChargeCurrentLimitOver" 22 "BMS_f012_ChargerConnected" 21 "BMS_f012_ChargerConnected" 20 "BMS_w011_ChargerMIA" 19 "BMS_w011_ChargerMIA" 18 "BMS_a010_CellTemperatureOORL" 17 "BMS_a010_CellTemperatureOORL" 16 "BMS_a009_CellTemperatureOORH" 15 "BMS_a009_CellTemperatureOORH" 14 "BMS_w008_CellTemperatureLostSensors" 13 "BMS_w008_CellTemperatureLostSensors" 12 "BMS_w007_CellTemperatureAbove60degC" 11 "BMS_w007_CellTemperatureAbove60degC" 10 "BMS_w006_CellUndertemperature" 9 "BMS_w006_CellUndertemperature" 8 "BMS_w005_CellOvertemperature" 7 "BMS_w005_CellOvertemperature" 6 "BMS_c004_CellVoltageOORL" 5 "BMS_c004_CellVoltageOORL" 4 "BMS_c003_CellVoltageOORH" 3 "BMS_c003_CellVoltageOORH" 2 "BMS_w002_CellUndervoltage" 1 "BMS_w002_CellUndervoltage" 0 "BMS_w001_CellOvervoltage" ;
+
+
+BO_ 325 BMS_Fault: 8 BMS
+ SG_ BMS_w001_CellID m0 : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_w001_CellVoltage m0 : 24|16@1+ (0.0001,0) [0|0] "Volts" Vector__XXX
+ SG_ BMS_w002_CellID m1 : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_w002_CellVoltage m1 : 24|16@1+ (0.0001,0) [0|0] "Volts" Vector__XXX
+ SG_ BMS_c003_CellID m2 : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_c003_CellVoltage m2 : 24|16@1+ (0.0001,0) [0|0] "Volts" Vector__XXX
+ SG_ BMS_c004_CellID m3 : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_c004_CellVoltage m3 : 24|16@1+ (0.0001,0) [0|0] "Volts" Vector__XXX
+ SG_ BMS_w005_CellID m4 : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_w005_CellTemperature m4 : 24|8@1- (1,0) [0|0] "deg C" Vector__XXX
+ SG_ BMS_w006_CellID m5 : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_w006_CellTemperature m5 : 24|8@1- (1,0) [0|0] "deg C" Vector__XXX
+ SG_ BMS_w007_CellID m6 : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_w007_CellTemperature m6 : 24|8@1- (1,0) [0|0] "deg C" Vector__XXX
+ SG_ BMS_w008_LostSensors m7 : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_a009_CellID m8 : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_a009_SensorVoltage m8 : 24|16@1+ (0.0001,0) [0|0] "Volts" Vector__XXX
+ SG_ BMS_a010_CellID m9 : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_a010_SensorVoltage m9 : 24|16@1+ (0.0001,0) [0|0] "Volts" Vector__XXX
+ SG_ BMS_w013_ChargeCurrentLimit m12 : 16|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_w013_PackI m12 : 32|16@1- (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_w014_DischargeCurrentLimit m13 : 16|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_w014_PackI m13 : 32|16@1- (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_c018_SensorVoltage m17 : 16|16@1+ (0.0001,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_c019_SensorVoltage m18 : 16|16@1+ (0.0001,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_a024_CellID m23 : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_a024_Resistance m23 : 24|16@1+ (0.1,0) [0|0] "mOhms" Vector__XXX
+ SG_ BMS_w028_InverterID m27 : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_FaultCode M : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 582 BMS_FaultMatrix: 8 BMS
+ SG_ BMS_w001_CellOvervoltage m0 : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_w002_CellUndervoltage m0 : 5|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_c003_CellVoltageOORH m0 : 6|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_c004_CellVoltageOORL m0 : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_w005_CellOvertemperature m0 : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_w006_CellUndertemperature m0 : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_w007_CellTemperatureAbove60degC m0 : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_w008_CellTemperatureLostSensors m0 : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_a009_CellTemperatureOORH m0 : 12|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_a010_CellTemperatureOORL m0 : 13|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_w011_ChargerMIA m0 : 14|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_f012_ChargerConnected m0 : 15|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_w013_ChargeCurrentLimitOver m0 : 16|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_w014_DischargeCurrentLimitOver m0 : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_w015_ChargerFault m0 : 18|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_w016_ChargeCompleted m0 : 19|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_w017_DischargeCompleted m0 : 20|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_c018_CurrentSensorOORH m0 : 21|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_c019_CurrentSensorOORL m0 : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_a020_PowerStageOpen m0 : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_f021_BalancingActive m0 : 24|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_a022_AuxMIA m0 : 25|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_w023_PowerStageFailure m0 : 26|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_a024_CellHighImpedance m0 : 27|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_w025_isoSPIPECError m0 : 28|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_w026_SelfTestError m0 : 29|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_f027_VehicleIdle m0 : 30|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_w028_InverterSDCOpenRequest m0 : 31|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_c029_VoltageFailsafeMode m0 : 32|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_c030_CurrentFailsafeMode m0 : 33|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_a031_StartupFailure m0 : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_f032_ChargerEnabled m0 : 35|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_w033_ChargingTimeout m0 : 36|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_FaultMatrixMux M : 0|4@1+ (1,0) [0|0] "" Vector__XXX
+
+
+
+CM_ "
+
+";
+CM_ BU_ BMS "";
+BA_DEF_ SG_  "AppScale" FLOAT 0 0;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ SG_  "AppType" STRING ;
+BA_DEF_DEF_  "AppScale" 0;
+BA_DEF_DEF_  "BusType" "";
+BA_DEF_DEF_  "AppType" "";
+BA_ "AppScale" SG_ 582 BMS_w001_CellOvervoltage 1;
+BA_ "AppType" SG_ 582 BMS_w001_CellOvervoltage "bool";
+BA_ "AppScale" SG_ 325 BMS_w001_CellID 1;
+BA_ "AppType" SG_ 325 BMS_w001_CellID "uint8_t";
+BA_ "AppScale" SG_ 325 BMS_w001_CellVoltage 0.0001;
+BA_ "AppType" SG_ 325 BMS_w001_CellVoltage "uint16_t";
+BA_ "AppScale" SG_ 582 BMS_w002_CellUndervoltage 1;
+BA_ "AppType" SG_ 582 BMS_w002_CellUndervoltage "bool";
+BA_ "AppScale" SG_ 325 BMS_w002_CellID 1;
+BA_ "AppType" SG_ 325 BMS_w002_CellID "uint8_t";
+BA_ "AppScale" SG_ 325 BMS_w002_CellVoltage 0.0001;
+BA_ "AppType" SG_ 325 BMS_w002_CellVoltage "uint16_t";
+BA_ "AppScale" SG_ 582 BMS_c003_CellVoltageOORH 1;
+BA_ "AppType" SG_ 582 BMS_c003_CellVoltageOORH "bool";
+BA_ "AppScale" SG_ 325 BMS_c003_CellID 1;
+BA_ "AppType" SG_ 325 BMS_c003_CellID "uint8_t";
+BA_ "AppScale" SG_ 325 BMS_c003_CellVoltage 0.0001;
+BA_ "AppType" SG_ 325 BMS_c003_CellVoltage "uint16_t";
+BA_ "AppScale" SG_ 582 BMS_c004_CellVoltageOORL 1;
+BA_ "AppType" SG_ 582 BMS_c004_CellVoltageOORL "bool";
+BA_ "AppScale" SG_ 325 BMS_c004_CellID 1;
+BA_ "AppType" SG_ 325 BMS_c004_CellID "uint8_t";
+BA_ "AppScale" SG_ 325 BMS_c004_CellVoltage 0.0001;
+BA_ "AppType" SG_ 325 BMS_c004_CellVoltage "uint16_t";
+BA_ "AppScale" SG_ 582 BMS_w005_CellOvertemperature 1;
+BA_ "AppType" SG_ 582 BMS_w005_CellOvertemperature "bool";
+BA_ "AppScale" SG_ 325 BMS_w005_CellID 1;
+BA_ "AppType" SG_ 325 BMS_w005_CellID "uint8_t";
+BA_ "AppScale" SG_ 325 BMS_w005_CellTemperature 1;
+BA_ "AppType" SG_ 325 BMS_w005_CellTemperature "int8_t";
+BA_ "AppScale" SG_ 582 BMS_w006_CellUndertemperature 1;
+BA_ "AppType" SG_ 582 BMS_w006_CellUndertemperature "bool";
+BA_ "AppScale" SG_ 325 BMS_w006_CellID 1;
+BA_ "AppType" SG_ 325 BMS_w006_CellID "uint8_t";
+BA_ "AppScale" SG_ 325 BMS_w006_CellTemperature 1;
+BA_ "AppType" SG_ 325 BMS_w006_CellTemperature "int8_t";
+BA_ "AppScale" SG_ 582 BMS_w007_CellTemperatureAbove60degC 1;
+BA_ "AppType" SG_ 582 BMS_w007_CellTemperatureAbove60degC "bool";
+BA_ "AppScale" SG_ 325 BMS_w007_CellID 1;
+BA_ "AppType" SG_ 325 BMS_w007_CellID "uint8_t";
+BA_ "AppScale" SG_ 325 BMS_w007_CellTemperature 1;
+BA_ "AppType" SG_ 325 BMS_w007_CellTemperature "int8_t";
+BA_ "AppScale" SG_ 582 BMS_w008_CellTemperatureLostSensors 1;
+BA_ "AppType" SG_ 582 BMS_w008_CellTemperatureLostSensors "bool";
+BA_ "AppScale" SG_ 325 BMS_w008_LostSensors 1;
+BA_ "AppType" SG_ 325 BMS_w008_LostSensors "uint8_t";
+BA_ "AppScale" SG_ 582 BMS_a009_CellTemperatureOORH 1;
+BA_ "AppType" SG_ 582 BMS_a009_CellTemperatureOORH "bool";
+BA_ "AppScale" SG_ 325 BMS_a009_CellID 1;
+BA_ "AppType" SG_ 325 BMS_a009_CellID "uint8_t";
+BA_ "AppScale" SG_ 325 BMS_a009_SensorVoltage 0.0001;
+BA_ "AppType" SG_ 325 BMS_a009_SensorVoltage "uint16_t";
+BA_ "AppScale" SG_ 582 BMS_a010_CellTemperatureOORL 1;
+BA_ "AppType" SG_ 582 BMS_a010_CellTemperatureOORL "bool";
+BA_ "AppScale" SG_ 325 BMS_a010_CellID 1;
+BA_ "AppType" SG_ 325 BMS_a010_CellID "uint8_t";
+BA_ "AppScale" SG_ 325 BMS_a010_SensorVoltage 0.0001;
+BA_ "AppType" SG_ 325 BMS_a010_SensorVoltage "uint16_t";
+BA_ "AppScale" SG_ 582 BMS_w011_ChargerMIA 1;
+BA_ "AppType" SG_ 582 BMS_w011_ChargerMIA "bool";
+BA_ "AppScale" SG_ 582 BMS_f012_ChargerConnected 1;
+BA_ "AppType" SG_ 582 BMS_f012_ChargerConnected "bool";
+BA_ "AppScale" SG_ 582 BMS_w013_ChargeCurrentLimitOver 1;
+BA_ "AppType" SG_ 582 BMS_w013_ChargeCurrentLimitOver "bool";
+BA_ "AppScale" SG_ 325 BMS_w013_ChargeCurrentLimit 1;
+BA_ "AppType" SG_ 325 BMS_w013_ChargeCurrentLimit "uint16_t";
+BA_ "AppScale" SG_ 325 BMS_w013_PackI 1;
+BA_ "AppType" SG_ 325 BMS_w013_PackI "float";
+BA_ "AppScale" SG_ 582 BMS_w014_DischargeCurrentLimitOver 1;
+BA_ "AppType" SG_ 582 BMS_w014_DischargeCurrentLimitOver "bool";
+BA_ "AppScale" SG_ 325 BMS_w014_DischargeCurrentLimit 1;
+BA_ "AppType" SG_ 325 BMS_w014_DischargeCurrentLimit "uint16_t";
+BA_ "AppScale" SG_ 325 BMS_w014_PackI 1;
+BA_ "AppType" SG_ 325 BMS_w014_PackI "float";
+BA_ "AppScale" SG_ 582 BMS_w015_ChargerFault 1;
+BA_ "AppType" SG_ 582 BMS_w015_ChargerFault "bool";
+BA_ "AppScale" SG_ 582 BMS_w016_ChargeCompleted 1;
+BA_ "AppType" SG_ 582 BMS_w016_ChargeCompleted "bool";
+BA_ "AppScale" SG_ 582 BMS_w017_DischargeCompleted 1;
+BA_ "AppType" SG_ 582 BMS_w017_DischargeCompleted "bool";
+BA_ "AppScale" SG_ 582 BMS_c018_CurrentSensorOORH 1;
+BA_ "AppType" SG_ 582 BMS_c018_CurrentSensorOORH "bool";
+BA_ "AppScale" SG_ 325 BMS_c018_SensorVoltage 1;
+BA_ "AppType" SG_ 325 BMS_c018_SensorVoltage "uint16_t";
+BA_ "AppScale" SG_ 582 BMS_c019_CurrentSensorOORL 1;
+BA_ "AppType" SG_ 582 BMS_c019_CurrentSensorOORL "bool";
+BA_ "AppScale" SG_ 325 BMS_c019_SensorVoltage 1;
+BA_ "AppType" SG_ 325 BMS_c019_SensorVoltage "uint16_t";
+BA_ "AppScale" SG_ 582 BMS_a020_PowerStageOpen 1;
+BA_ "AppType" SG_ 582 BMS_a020_PowerStageOpen "bool";
+BA_ "AppScale" SG_ 582 BMS_f021_BalancingActive 1;
+BA_ "AppType" SG_ 582 BMS_f021_BalancingActive "bool";
+BA_ "AppScale" SG_ 582 BMS_a022_AuxMIA 1;
+BA_ "AppType" SG_ 582 BMS_a022_AuxMIA "bool";
+BA_ "AppScale" SG_ 582 BMS_w023_PowerStageFailure 1;
+BA_ "AppType" SG_ 582 BMS_w023_PowerStageFailure "bool";
+BA_ "AppScale" SG_ 582 BMS_a024_CellHighImpedance 1;
+BA_ "AppType" SG_ 582 BMS_a024_CellHighImpedance "bool";
+BA_ "AppScale" SG_ 325 BMS_a024_CellID 1;
+BA_ "AppType" SG_ 325 BMS_a024_CellID "uint8_t";
+BA_ "AppScale" SG_ 325 BMS_a024_Resistance 0.1;
+BA_ "AppType" SG_ 325 BMS_a024_Resistance "uint16_t";
+BA_ "AppScale" SG_ 582 BMS_w025_isoSPIPECError 1;
+BA_ "AppType" SG_ 582 BMS_w025_isoSPIPECError "bool";
+BA_ "AppScale" SG_ 582 BMS_w026_SelfTestError 1;
+BA_ "AppType" SG_ 582 BMS_w026_SelfTestError "bool";
+BA_ "AppScale" SG_ 582 BMS_f027_VehicleIdle 1;
+BA_ "AppType" SG_ 582 BMS_f027_VehicleIdle "bool";
+BA_ "AppScale" SG_ 582 BMS_w028_InverterSDCOpenRequest 1;
+BA_ "AppType" SG_ 582 BMS_w028_InverterSDCOpenRequest "bool";
+BA_ "AppScale" SG_ 325 BMS_w028_InverterID 1;
+BA_ "AppType" SG_ 325 BMS_w028_InverterID "uint8_t";
+BA_ "AppScale" SG_ 582 BMS_c029_VoltageFailsafeMode 1;
+BA_ "AppType" SG_ 582 BMS_c029_VoltageFailsafeMode "bool";
+BA_ "AppScale" SG_ 582 BMS_c030_CurrentFailsafeMode 1;
+BA_ "AppType" SG_ 582 BMS_c030_CurrentFailsafeMode "bool";
+BA_ "AppScale" SG_ 582 BMS_a031_StartupFailure 1;
+BA_ "AppType" SG_ 582 BMS_a031_StartupFailure "bool";
+BA_ "AppScale" SG_ 582 BMS_f032_ChargerEnabled 1;
+BA_ "AppType" SG_ 582 BMS_f032_ChargerEnabled "bool";
+BA_ "AppScale" SG_ 582 BMS_w033_ChargingTimeout 1;
+BA_ "AppType" SG_ 582 BMS_w033_ChargingTimeout "bool";
+BA_ "AppScale" SG_ 325 BMS_FaultCode 1;
+BA_ "AppType" SG_ 325 BMS_FaultCode "uint16_t";
+BA_ "AppScale" SG_ 582 BMS_FaultMatrixMux 1;
+BA_ "AppType" SG_ 582 BMS_FaultMatrixMux "uint8_t";
+VAL_ 325 BMS_FaultCode 64 "BMS_w033_ChargingTimeout" 63 "BMS_w033_ChargingTimeout" 62 "BMS_f032_ChargerEnabled" 61 "BMS_f032_ChargerEnabled" 60 "BMS_a031_StartupFailure" 59 "BMS_a031_StartupFailure" 58 "BMS_c030_CurrentFailsafeMode" 57 "BMS_c030_CurrentFailsafeMode" 56 "BMS_c029_VoltageFailsafeMode" 55 "BMS_c029_VoltageFailsafeMode" 54 "BMS_w028_InverterSDCOpenRequest" 53 "BMS_w028_InverterSDCOpenRequest" 52 "BMS_f027_VehicleIdle" 51 "BMS_f027_VehicleIdle" 50 "BMS_w026_SelfTestError" 49 "BMS_w026_SelfTestError" 48 "BMS_w025_isoSPIPECError" 47 "BMS_w025_isoSPIPECError" 46 "BMS_a024_CellHighImpedance" 45 "BMS_a024_CellHighImpedance" 44 "BMS_w023_PowerStageFailure" 43 "BMS_w023_PowerStageFailure" 42 "BMS_a022_AuxMIA" 41 "BMS_a022_AuxMIA" 40 "BMS_f021_BalancingActive" 39 "BMS_f021_BalancingActive" 38 "BMS_a020_PowerStageOpen" 37 "BMS_a020_PowerStageOpen" 36 "BMS_c019_CurrentSensorOORL" 35 "BMS_c019_CurrentSensorOORL" 34 "BMS_c018_CurrentSensorOORH" 33 "BMS_c018_CurrentSensorOORH" 32 "BMS_w017_DischargeCompleted" 31 "BMS_w017_DischargeCompleted" 30 "BMS_w016_ChargeCompleted" 29 "BMS_w016_ChargeCompleted" 28 "BMS_w015_ChargerFault" 27 "BMS_w015_ChargerFault" 26 "BMS_w014_DischargeCurrentLimitOver" 25 "BMS_w014_DischargeCurrentLimitOver" 24 "BMS_w013_ChargeCurrentLimitOver" 23 "BMS_w013_ChargeCurrentLimitOver" 22 "BMS_f012_ChargerConnected" 21 "BMS_f012_ChargerConnected" 20 "BMS_w011_ChargerMIA" 19 "BMS_w011_ChargerMIA" 18 "BMS_a010_CellTemperatureOORL" 17 "BMS_a010_CellTemperatureOORL" 16 "BMS_a009_CellTemperatureOORH" 15 "BMS_a009_CellTemperatureOORH" 14 "BMS_w008_CellTemperatureLostSensors" 13 "BMS_w008_CellTemperatureLostSensors" 12 "BMS_w007_CellTemperatureAbove60degC" 11 "BMS_w007_CellTemperatureAbove60degC" 10 "BMS_w006_CellUndertemperature" 9 "BMS_w006_CellUndertemperature" 8 "BMS_w005_CellOvertemperature" 7 "BMS_w005_CellOvertemperature" 6 "BMS_c004_CellVoltageOORL" 5 "BMS_c004_CellVoltageOORL" 4 "BMS_c003_CellVoltageOORH" 3 "BMS_c003_CellVoltageOORH" 2 "BMS_w002_CellUndervoltage" 1 "BMS_w002_CellUndervoltage" 0 "BMS_w001_CellOvervoltage" ;
+

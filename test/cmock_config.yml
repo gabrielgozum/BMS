@@ -1,0 +1,3 @@
+:cmock:
+    :plugins: [ignore, return_thru_ptr, expect_any_args]
+    :mock_path: 'mock'

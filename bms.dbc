@@ -1,0 +1,1322 @@
+VERSION ""
+
+
+NS_ :
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: SW CHARGER BMS AUX
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ BMS_BalancingActive : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature0 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature1 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature2 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature3 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature4 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature5 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature6 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature7 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature8 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature9 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature10 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature11 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature12 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature13 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature14 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature15 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature16 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature17 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature18 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature19 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature20 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature21 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature22 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature23 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature24 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature25 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature26 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature27 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature28 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature29 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature30 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature31 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature32 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature33 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature34 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature35 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature36 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature37 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature38 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature39 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature40 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature41 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature42 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature43 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature44 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature45 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature46 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature47 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature48 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature49 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature50 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature51 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature52 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature53 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature54 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature55 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature56 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature57 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature58 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvertemperature59 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellFaultFlagMultiplexer : 0|4@1+ (1,0) [0|15] "ID" Vector__XXX
+ SG_ BMS_CellUndertemperature0 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature1 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature2 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature3 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature4 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature5 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature6 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature7 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature8 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature9 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature10 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature11 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature12 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature13 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature14 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature15 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature16 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature17 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature18 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature19 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature20 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature21 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature22 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature23 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature24 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature25 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature26 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature27 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature28 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature29 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature30 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature31 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature32 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature33 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature34 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature35 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature36 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature37 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature38 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature39 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature40 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature41 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature42 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature43 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature44 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature45 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature46 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature47 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature48 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature49 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature50 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature51 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature52 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature53 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature54 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature55 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature56 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature57 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature58 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndertemperature59 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage0 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage1 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage2 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage3 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage4 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage5 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage6 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage7 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage8 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage9 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage10 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage11 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage12 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage13 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage14 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage15 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage16 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage17 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage18 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage19 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage20 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage21 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage22 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage23 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage24 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage25 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage26 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage27 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage28 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage29 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage30 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage31 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage32 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage33 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage34 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage35 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage36 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage37 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage38 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage39 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage40 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage41 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage42 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage43 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage44 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage45 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage46 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage47 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage48 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage49 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage50 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage51 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage52 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage53 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage54 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage55 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage56 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage57 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage58 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellOvervoltage59 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage0 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage1 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage2 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage3 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage4 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage5 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage6 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage7 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage8 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage9 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage10 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage11 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage12 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage13 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage14 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage15 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage16 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage17 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage18 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage19 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage20 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage21 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage22 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage23 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage24 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage25 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage26 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage27 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage28 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage29 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage30 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage31 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage32 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage33 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage34 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage35 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage36 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage37 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage38 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage39 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage40 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage41 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage42 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage43 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage44 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage45 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage46 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage47 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage48 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage49 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage50 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage51 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage52 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage53 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage54 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage55 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage56 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage57 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage58 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellUndervoltage59 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence0 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence1 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence2 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence3 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence4 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence5 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence6 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence7 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence8 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence9 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence10 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence11 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence12 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence13 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence14 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence15 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence16 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence17 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence18 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence19 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence20 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence21 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence22 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence23 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence24 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence25 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence26 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence27 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence28 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence29 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence30 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence31 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence32 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence33 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence34 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence35 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence36 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence37 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence38 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence39 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence40 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence41 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence42 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence43 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence44 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence45 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence46 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence47 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence48 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence49 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence50 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence51 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence52 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence53 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence54 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence55 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence56 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence57 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence58 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+ SG_ BMS_CellHighimpedence59 : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+
+BO_ 835 BMS_CellBroadCast3: 8 BMS
+ SG_ BMS_CellSOE00 m0 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC00 m0 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy00 m0 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity00 m0 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive00 m0 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE01 m1 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC01 m1 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy01 m1 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity01 m1 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive01 m1 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE02 m2 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC02 m2 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy02 m2 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity02 m2 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive02 m2 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE03 m3 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC03 m3 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy03 m3 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity03 m3 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive03 m3 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE04 m4 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC04 m4 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy04 m4 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity04 m4 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive04 m4 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE05 m5 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC05 m5 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy05 m5 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity05 m5 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive05 m5 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE06 m6 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC06 m6 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy06 m6 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity06 m6 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive06 m6 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE07 m7 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC07 m7 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy07 m7 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity07 m7 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive07 m7 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE08 m8 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC08 m8 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy08 m8 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity08 m8 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive08 m8 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE09 m9 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC09 m9 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy09 m9 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity09 m9 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive09 m9 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE10 m10 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC10 m10 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy10 m10 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity10 m10 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive10 m10 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE11 m11 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC11 m11 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy11 m11 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity11 m11 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive11 m11 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE12 m12 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC12 m12 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy12 m12 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity12 m12 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive12 m12 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE13 m13 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC13 m13 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy13 m13 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity13 m13 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive13 m13 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE14 m14 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC14 m14 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy14 m14 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity14 m14 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive14 m14 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE15 m15 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC15 m15 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy15 m15 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity15 m15 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive15 m15 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE16 m16 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC16 m16 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy16 m16 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity16 m16 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive16 m16 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE17 m17 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC17 m17 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy17 m17 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity17 m17 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive17 m17 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE18 m18 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC18 m18 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy18 m18 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity18 m18 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive18 m18 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE19 m19 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC19 m19 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy19 m19 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity19 m19 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive19 m19 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE20 m20 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC20 m20 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy20 m20 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity20 m20 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive20 m20 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE21 m21 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC21 m21 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy21 m21 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity21 m21 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive21 m21 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE22 m22 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC22 m22 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy22 m22 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity22 m22 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive22 m22 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE23 m23 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC23 m23 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy23 m23 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity23 m23 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive23 m23 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE24 m24 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC24 m24 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy24 m24 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity24 m24 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive24 m24 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE25 m25 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC25 m25 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy25 m25 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity25 m25 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive25 m25 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE26 m26 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC26 m26 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy26 m26 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity26 m26 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive26 m26 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE27 m27 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC27 m27 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy27 m27 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity27 m27 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive27 m27 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE28 m28 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC28 m28 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy28 m28 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity28 m28 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive28 m28 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE29 m29 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC29 m29 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy29 m29 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity29 m29 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive29 m29 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE30 m30 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC30 m30 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy30 m30 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity30 m30 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive30 m30 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE31 m31 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC31 m31 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy31 m31 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity31 m31 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive31 m31 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE32 m32 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC32 m32 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy32 m32 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity32 m32 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive32 m32 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE33 m33 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC33 m33 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy33 m33 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity33 m33 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive33 m33 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE34 m34 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC34 m34 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy34 m34 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity34 m34 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive34 m34 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE35 m35 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC35 m35 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy35 m35 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity35 m35 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive35 m35 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE36 m36 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC36 m36 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy36 m36 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity36 m36 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive36 m36 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE37 m37 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC37 m37 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy37 m37 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity37 m37 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive37 m37 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE38 m38 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC38 m38 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy38 m38 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity38 m38 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive38 m38 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE39 m39 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC39 m39 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy39 m39 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity39 m39 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive39 m39 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE40 m40 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC40 m40 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy40 m40 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity40 m40 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive40 m40 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE41 m41 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC41 m41 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy41 m41 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity41 m41 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive41 m41 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE42 m42 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC42 m42 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy42 m42 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity42 m42 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive42 m42 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE43 m43 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC43 m43 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy43 m43 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity43 m43 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive43 m43 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE44 m44 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC44 m44 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy44 m44 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity44 m44 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive44 m44 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE45 m45 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC45 m45 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy45 m45 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity45 m45 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive45 m45 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE46 m46 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC46 m46 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy46 m46 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity46 m46 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive46 m46 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE47 m47 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC47 m47 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy47 m47 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity47 m47 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive47 m47 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE48 m48 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC48 m48 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy48 m48 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity48 m48 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive48 m48 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE49 m49 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC49 m49 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy49 m49 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity49 m49 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive49 m49 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE50 m50 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC50 m50 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy50 m50 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity50 m50 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive50 m50 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE51 m51 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC51 m51 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy51 m51 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity51 m51 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive51 m51 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE52 m52 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC52 m52 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy52 m52 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity52 m52 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive52 m52 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE53 m53 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC53 m53 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy53 m53 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity53 m53 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive53 m53 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE54 m54 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC54 m54 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy54 m54 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity54 m54 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive54 m54 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE55 m55 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC55 m55 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy55 m55 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity55 m55 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive55 m55 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE56 m56 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC56 m56 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy56 m56 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity56 m56 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive56 m56 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE57 m57 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC57 m57 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy57 m57 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity57 m57 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive57 m57 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE58 m58 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC58 m58 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy58 m58 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity58 m58 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive58 m58 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOE59 m59 : 48|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellSOC59 m59 : 40|8@1+ (0.5,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellEnergy59 m59 : 24|16@1+ (0.1,0) [0|0] "Watt*hr" Vector__XXX
+ SG_ BMS_CellCapacity59 m59 : 8|16@1+ (0.1,0) [0|0] "Amp*hr" Vector__XXX
+ SG_ BMS_CellBalancingActive59 m59 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellBroadcast3MUX M : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 834 BMS_CellBroadCast2: 6 BMS
+ SG_ BMS_CellTemperature00 m0 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau00 m0 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes00 m0 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes00 m0 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau00 m0 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature01 m1 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau01 m1 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes01 m1 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes01 m1 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau01 m1 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature02 m2 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau02 m2 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes02 m2 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes02 m2 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau02 m2 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature03 m3 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau03 m3 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes03 m3 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes03 m3 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau03 m3 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature04 m4 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau04 m4 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes04 m4 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes04 m4 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau04 m4 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature05 m5 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau05 m5 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes05 m5 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes05 m5 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau05 m5 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature06 m6 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau06 m6 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes06 m6 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes06 m6 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau06 m6 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature07 m7 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau07 m7 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes07 m7 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes07 m7 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau07 m7 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature08 m8 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau08 m8 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes08 m8 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes08 m8 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau08 m8 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature09 m9 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau09 m9 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes09 m9 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes09 m9 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau09 m9 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature10 m10 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau10 m10 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes10 m10 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes10 m10 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau10 m10 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature11 m11 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau11 m11 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes11 m11 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes11 m11 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau11 m11 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature12 m12 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau12 m12 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes12 m12 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes12 m12 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau12 m12 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature13 m13 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau13 m13 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes13 m13 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes13 m13 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau13 m13 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature14 m14 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau14 m14 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes14 m14 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes14 m14 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau14 m14 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature15 m15 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau15 m15 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes15 m15 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes15 m15 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau15 m15 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature16 m16 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau16 m16 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes16 m16 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes16 m16 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau16 m16 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature17 m17 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau17 m17 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes17 m17 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes17 m17 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau17 m17 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature18 m18 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau18 m18 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes18 m18 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes18 m18 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau18 m18 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature19 m19 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau19 m19 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes19 m19 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes19 m19 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau19 m19 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature20 m20 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau20 m20 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes20 m20 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes20 m20 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau20 m20 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature21 m21 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau21 m21 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes21 m21 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes21 m21 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau21 m21 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature22 m22 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau22 m22 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes22 m22 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes22 m22 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau22 m22 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature23 m23 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau23 m23 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes23 m23 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes23 m23 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau23 m23 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature24 m24 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau24 m24 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes24 m24 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes24 m24 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau24 m24 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature25 m25 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau25 m25 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes25 m25 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes25 m25 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau25 m25 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature26 m26 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau26 m26 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes26 m26 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes26 m26 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau26 m26 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature27 m27 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau27 m27 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes27 m27 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes27 m27 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau27 m27 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature28 m28 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau28 m28 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes28 m28 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes28 m28 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau28 m28 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature29 m29 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau29 m29 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes29 m29 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes29 m29 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau29 m29 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature30 m30 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau30 m30 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes30 m30 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes30 m30 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau30 m30 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature31 m31 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau31 m31 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes31 m31 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes31 m31 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau31 m31 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature32 m32 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau32 m32 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes32 m32 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes32 m32 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau32 m32 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature33 m33 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau33 m33 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes33 m33 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes33 m33 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau33 m33 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature34 m34 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau34 m34 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes34 m34 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes34 m34 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau34 m34 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature35 m35 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau35 m35 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes35 m35 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes35 m35 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau35 m35 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature36 m36 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau36 m36 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes36 m36 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes36 m36 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau36 m36 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature37 m37 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau37 m37 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes37 m37 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes37 m37 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau37 m37 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature38 m38 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau38 m38 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes38 m38 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes38 m38 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau38 m38 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature39 m39 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau39 m39 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes39 m39 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes39 m39 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau39 m39 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature40 m40 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau40 m40 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes40 m40 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes40 m40 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau40 m40 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature41 m41 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau41 m41 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes41 m41 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes41 m41 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau41 m41 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature42 m42 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau42 m42 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes42 m42 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes42 m42 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau42 m42 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature43 m43 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau43 m43 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes43 m43 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes43 m43 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau43 m43 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature44 m44 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau44 m44 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes44 m44 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes44 m44 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau44 m44 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature45 m45 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau45 m45 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes45 m45 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes45 m45 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau45 m45 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature46 m46 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau46 m46 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes46 m46 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes46 m46 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau46 m46 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature47 m47 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau47 m47 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes47 m47 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes47 m47 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau47 m47 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature48 m48 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau48 m48 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes48 m48 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes48 m48 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau48 m48 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature49 m49 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau49 m49 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes49 m49 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes49 m49 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau49 m49 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature50 m50 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau50 m50 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes50 m50 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes50 m50 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau50 m50 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature51 m51 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau51 m51 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes51 m51 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes51 m51 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau51 m51 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature52 m52 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau52 m52 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes52 m52 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes52 m52 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau52 m52 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature53 m53 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau53 m53 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes53 m53 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes53 m53 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau53 m53 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature54 m54 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau54 m54 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes54 m54 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes54 m54 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau54 m54 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature55 m55 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau55 m55 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes55 m55 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes55 m55 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau55 m55 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature56 m56 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau56 m56 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes56 m56 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes56 m56 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau56 m56 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature57 m57 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau57 m57 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes57 m57 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes57 m57 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau57 m57 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature58 m58 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau58 m58 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes58 m58 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes58 m58 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau58 m58 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellTemperature59 m59 : 40|8@1- (1,0) [0|0] "C" Vector__XXX
+ SG_ BMS_CellDchTau59 m59 : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellDchRes59 m59 : 16|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChRes59 m59 : 8|8@1+ (0.0001,0) [0|0] "Ohm" Vector__XXX
+ SG_ BMS_CellChTau59 m59 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellBroadcast2MUX M : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 833 BMS_CellBroadCast1: 8 BMS
+ SG_ BMS_CellBroadcast1MUX M : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_CellVoltage00 m0 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV00 m0 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit00 m0 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit00 m0 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage01 m1 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV01 m1 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit01 m1 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit01 m1 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage02 m2 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV02 m2 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit02 m2 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit02 m2 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage03 m3 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV03 m3 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit03 m3 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit03 m3 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage04 m4 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV04 m4 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit04 m4 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit04 m4 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage05 m5 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV05 m5 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit05 m5 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit05 m5 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage06 m6 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV06 m6 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit06 m6 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit06 m6 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage07 m7 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV07 m7 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit07 m7 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit07 m7 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage08 m8 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV08 m8 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit08 m8 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit08 m8 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage09 m9 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV09 m9 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit09 m9 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit09 m9 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage10 m10 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV10 m10 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit10 m10 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit10 m10 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage11 m11 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV11 m11 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit11 m11 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit11 m11 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage12 m12 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV12 m12 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit12 m12 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit12 m12 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage13 m13 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV13 m13 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit13 m13 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit13 m13 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage14 m14 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV14 m14 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit14 m14 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit14 m14 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage15 m15 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV15 m15 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit15 m15 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit15 m15 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage16 m16 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV16 m16 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit16 m16 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit16 m16 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage17 m17 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV17 m17 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit17 m17 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit17 m17 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage18 m18 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV18 m18 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit18 m18 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit18 m18 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage19 m19 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV19 m19 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit19 m19 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit19 m19 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage20 m20 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV20 m20 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit20 m20 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit20 m20 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage21 m21 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV21 m21 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit21 m21 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit21 m21 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage22 m22 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV22 m22 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit22 m22 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit22 m22 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage23 m23 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV23 m23 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit23 m23 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit23 m23 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage24 m24 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV24 m24 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit24 m24 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit24 m24 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage25 m25 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV25 m25 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit25 m25 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit25 m25 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage26 m26 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV26 m26 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit26 m26 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit26 m26 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage27 m27 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV27 m27 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit27 m27 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit27 m27 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage28 m28 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV28 m28 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit28 m28 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit28 m28 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage29 m29 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV29 m29 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit29 m29 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit29 m29 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage30 m30 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV30 m30 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit30 m30 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit30 m30 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage31 m31 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV31 m31 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit31 m31 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit31 m31 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage32 m32 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV32 m32 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit32 m32 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit32 m32 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage33 m33 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV33 m33 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit33 m33 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit33 m33 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage34 m34 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV34 m34 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit34 m34 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit34 m34 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage35 m35 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV35 m35 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit35 m35 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit35 m35 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage36 m36 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV36 m36 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit36 m36 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit36 m36 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage37 m37 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV37 m37 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit37 m37 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit37 m37 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage38 m38 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV38 m38 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit38 m38 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit38 m38 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage39 m39 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV39 m39 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit39 m39 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit39 m39 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage40 m40 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV40 m40 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit40 m40 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit40 m40 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage41 m41 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV41 m41 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit41 m41 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit41 m41 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage42 m42 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV42 m42 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit42 m42 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit42 m42 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage43 m43 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV43 m43 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit43 m43 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit43 m43 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage44 m44 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV44 m44 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit44 m44 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit44 m44 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage45 m45 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV45 m45 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit45 m45 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit45 m45 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage46 m46 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV46 m46 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit46 m46 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit46 m46 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage47 m47 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV47 m47 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit47 m47 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit47 m47 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage48 m48 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV48 m48 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit48 m48 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit48 m48 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage49 m49 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV49 m49 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit49 m49 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit49 m49 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage50 m50 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV50 m50 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit50 m50 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit50 m50 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage51 m51 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV51 m51 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit51 m51 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit51 m51 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage52 m52 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV52 m52 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit52 m52 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit52 m52 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage53 m53 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV53 m53 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit53 m53 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit53 m53 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage54 m54 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV54 m54 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit54 m54 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit54 m54 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage55 m55 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV55 m55 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit55 m55 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit55 m55 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage56 m56 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV56 m56 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit56 m56 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit56 m56 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage57 m57 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV57 m57 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit57 m57 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit57 m57 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage58 m58 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV58 m58 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit58 m58 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit58 m58 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellVoltage59 m59 : 8|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellOCV59 m59 : 24|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellDchCurrentLimit59 m59 : 48|16@1+ (1,0) [0|0] "Amps" Vector__XXX
+ SG_ BMS_CellChCurrentLimit59 m59 : 40|8@1+ (1,0) [0|0] "Amps" Vector__XXX
+
+BO_ 837 BMS_CellBalancing: 8 Vector__XXX
+ SG_ BMS_NumberCellsBalancing : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_BalancingActive : 0|1@1+ (1,0) [0|0] "Flag" Vector__XXX
+
+BO_ 838 BMS_Debug: 8 BMS
+ SG_ BMS_PackCurrentOffset : 32|16@1- (1,0) [-32768|32767] "A" Vector__XXX
+ SG_ BMS_PackCurrentSensorV : 0|16@1+ (1,0) [0|0] "mV" Vector__XXX
+
+BO_ 836 BMS_Version: 8 BMS
+ SG_ BMS_VersionMinor : 0|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_VersionMajor : 4|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_VersionMaintenance : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_Build_Year_Suffix : 56|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_Build_Year_Prefix : 48|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_Build_Month : 32|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_Build_Minute : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_Build_Hour : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_Build_Day : 40|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 577 BMSrx_Config: 8 Vector__XXX
+ SG_ BMSrx_Enable_Cell_Balancing : 7|1@1+ (1,0) [0|0] "Flag"  BMS
+ SG_ BMSrx_Charger_Voltage_Limit : 24|16@1+ (0.2,0) [0|0] "V"  BMS
+ SG_ BMSrx_Charger_Current_Limit : 40|16@1+ (0.05,0) [0|0] "Amps"  BMS
+
+BO_ 323 BMS_CellChResistance: 8 BMS
+ SG_ BMS_CellChResLowId : 56|8@1+ (1,0) [0|255] "ID" Vector__XXX
+ SG_ BMS_CellChResLow : 40|16@1+ (0.1,0) [0|0] "mOhm" Vector__XXX
+ SG_ BMS_CellChResHighId : 32|8@1+ (1,0) [0|255] "ID" Vector__XXX
+ SG_ BMS_CellChResHigh : 16|16@1+ (0.1,0) [0|0] "mOhm" Vector__XXX
+ SG_ BMS_CellChResAvg : 0|16@1+ (0.1,0) [0|0] "mOhm" Vector__XXX
+
+BO_ 324 BMS_CellDchResistance: 8 BMS
+ SG_ BMS_CellDchResLowId : 56|8@1+ (1,0) [0|255] "ID" Vector__XXX
+ SG_ BMS_CellDchResLow : 40|16@1+ (0.1,0) [0|0] "mOhm" Vector__XXX
+ SG_ BMS_CellDchResHighId : 32|8@1+ (1,0) [0|255] "ID" Vector__XXX
+ SG_ BMS_CellDchResHigh : 16|16@1+ (0.1,0) [0|0] "mOhm" Vector__XXX
+ SG_ BMS_CellDchResAvg : 0|16@1+ (0.1,0) [0|0] "mOhm" Vector__XXX
+
+BO_ 322 BMS_OpenCellVoltage: 8 BMS
+ SG_ BMS_CellOCVMinId : 56|8@1+ (1,0) [0|255] "ID" Vector__XXX
+ SG_ BMS_CellOCVMin : 40|16@1+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ BMS_CellOCVMaxId : 32|8@1+ (1,0) [0|255] "ID" Vector__XXX
+ SG_ BMS_CellOCVMax : 16|16@1+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+ SG_ BMS_CellOCVAvg : 0|16@1+ (0.0001,0) [0|6.5535] "V" Vector__XXX
+
+BO_ 321 BMS_CellTemperature: 5 BMS
+ SG_ BMS_CellTemperatureLowID : 32|8@1+ (1,0) [0|0] "ID" Vector__XXX
+ SG_ BMS_CellTemperatureLow : 24|8@1- (1,0) [0|0] "deg C" Vector__XXX
+ SG_ BMS_CellTemperatureHighID : 16|8@1+ (1,0) [0|0] "ID" Vector__XXX
+ SG_ BMS_CellTemperatureHigh : 8|8@1- (1,0) [0|0] "deg C" Vector__XXX
+ SG_ BMS_CellTemperatureAvg : 0|8@1- (1,0) [0|0] "deg C" Vector__XXX
+
+BO_ 320 BMS_CellVoltage: 8 BMS
+ SG_ BMS_CellVoltageLowID : 56|8@1+ (1,0) [0|0] "ID" Vector__XXX
+ SG_ BMS_CellVoltageLow : 40|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellVoltageHighID : 32|8@1+ (1,0) [0|0] "ID" Vector__XXX
+ SG_ BMS_CellVoltageHigh : 16|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+ SG_ BMS_CellVoltageAvg : 0|16@1+ (0.0001,0) [0|0] "V" Vector__XXX
+
+BO_ 327 BMS_CellSOC: 8 BMS
+ SG_ BMS_CellSOCLowID : 32|8@1+ (1,0) [0|0] "ID" Vector__XXX
+ SG_ BMS_CellSOCLow : 24|8@1+ (0.5,0) [0|0] "%" Vector__XXX
+ SG_ BMS_CellSOCHighID : 16|8@1+ (1,0) [0|0] "ID" Vector__XXX
+ SG_ BMS_CellSOCHigh : 8|8@1+ (0.5,0) [0|0] "%" Vector__XXX
+ SG_ BMS_CellSOCAvg : 0|8@1+ (0.5,0) [0|0] "%" Vector__XXX
+
+BO_ 326 BMS_CellCapacity: 8 BMS
+ SG_ BMS_CellCapacityLowID : 56|8@1+ (1,0) [0|0] "ID" Vector__XXX
+ SG_ BMS_CellCapacityLow : 40|16@1+ (0.001,0) [0|0] "Ahr" Vector__XXX
+ SG_ BMS_CellCapacityHighID : 32|8@1+ (1,0) [0|0] "ID" Vector__XXX
+ SG_ BMS_CellCapacityHigh : 16|16@1+ (0.001,0) [0|0] "Ahr" Vector__XXX
+ SG_ BMS_CellCapacityAvg : 0|16@1+ (0.001,0) [0|0] "Ahr" Vector__XXX
+
+BO_ 67 BMS_SOC: 8 BMS
+ SG_ BMS_PackSOELookup : 24|8@1+ (0.5,0) [0|0] "%" Vector__XXX
+ SG_ BMS_PackSOCRest : 16|8@1+ (0.5,0) [0|0] "%" Vector__XXX
+ SG_ BMS_PackOCVLookup : 32|16@1+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ BMS_PackChRes : 48|16@1+ (0.1,0) [0|0] "mOhm" Vector__XXX
+ SG_ BMS_PackSOEWatthrIntegration : 8|8@1+ (0.5,0) [0|0] "%" Vector__XXX
+ SG_ BMS_PackSOCAmphrIntegration : 0|8@1+ (0.5,0) [0|0] "%" Vector__XXX
+
+BO_ 65 BMS_PackStats: 8 BMS
+ SG_ BMS_PackDchRes : 48|16@1+ (0.1,0) [0|0] "mOhms" Vector__XXX
+ SG_ BMS_PackOCVModel : 32|16@1+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ BMS_PackVoltage : 16|16@1+ (0.01,0) [0|655.35] "V" Vector__XXX
+ SG_ BMS_PackCurrent : 0|16@1- (0.1,0) [-3276.8|3276.7] "A" Vector__XXX
+
+BO_ 64 BMS_Vitals: 8 BMS
+ SG_ BMS_PowerStageClosed : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_ChargeCurrentLimit : 24|8@1+ (1,0) [0|255] "A" Vector__XXX
+ SG_ BMS_DischargeCurrentLimit : 8|16@1+ (1,0) [0|65535] "A" Vector__XXX
+
+BO_ 2566867695 CHARGERrx_Cmd: 8 BMS
+ SG_ CHARGERrx_MsgChecksum : 60|4@1+ (1,0) [0|15] "Flag"  CHARGER
+ SG_ CHARGERrx_MsgCounter : 56|4@1+ (1,0) [0|15] "Flag"  CHARGER
+ SG_ CHARGERrx_CurrentLimit : 20|12@1+ (0.05,0) [0|200.75] "A"  CHARGER
+ SG_ CHARGERrx_VoltageLimit : 8|12@1+ (0.2,0) [0|803] "V"  CHARGER
+ SG_ CHARGERrx_SystemFault : 4|2@1+ (1,0) [0|3] "Flag"  CHARGER
+ SG_ CHARGERrx_Complete : 2|2@1+ (1,0) [0|3] "Flag"  CHARGER
+ SG_ CHARGERrx_Enable : 0|2@1+ (1,0) [0|3] "Flag"  CHARGER
+
+BO_ 2566864969 CHARGER_Status: 8 CHARGER
+ SG_ CHARGER_MsgChecksum : 60|4@1+ (1,0) [0|15] "Flag"  BMS
+ SG_ CHARGER_MsgCounter : 56|4@1+ (1,0) [0|15] "Flag"  BMS
+ SG_ CHARGER_FaultSeverity : 53|3@1+ (1,0) [0|7] "Flag"  BMS
+ SG_ CHARGER_State : 50|3@1+ (1,0) [0|7] "Flag"  BMS
+ SG_ CHARGER_Ignition : 48|2@1+ (1,0) [0|3] "Flag"  BMS
+ SG_ CHARGER_Temperature : 40|8@1+ (1,-40) [-40|210] "C"  BMS
+ SG_ CHARGER_OutputCurrent : 32|8@1+ (0.5,0) [0|125] "A"  BMS
+ SG_ CHARGER_InputCurrent : 24|8@1+ (0.5,0) [0|125] "Arms"  BMS
+ SG_ CHARGER_InputCurrent_Max : 16|8@1+ (0.5,0) [0|125] "Arms"  BMS
+ SG_ CHARGER_OutputVoltage : 8|8@1+ (2,0) [0|500] "V"  BMS
+ SG_ CHARGER_InputVoltage : 0|8@1+ (2,0) [0|500] "Vrms"  BMS
+
+
+
+CM_ "
+
+";
+CM_ BU_ SW "Steering Wheel";
+CM_ BU_ CHARGER "Charger";
+CM_ BU_ BMS "Battery Management System";
+CM_ BU_ AUX "AuxMCU";
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+BA_DEF_ SG_  "AppScale" FLOAT 0 0;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "AppScale" 1;
+BA_DEF_DEF_  "BusType" "";
+BA_ "BusType" "CAN";
+SIG_GROUP_ 834 BMS_CellBroadcast2MUX 1 :;
+

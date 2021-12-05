@@ -1,0 +1,411 @@
+{
+    "faults": [
+        {
+            "name": "CellOvervoltage",
+            "severity" : "Warning",
+            "description": "Cell voltage is above its safe limit specified by the manufacturer datasheet.",
+            "data": [
+                {
+                    "name": "CellID",
+                    "appType": "uint8_t",
+                    "length": 8,
+                    "signed": "n"
+                },
+                {
+                    "name": "CellVoltage",
+                    "appScale": 0.0001,
+                    "appType": "uint16_t",
+                    "length": 16,
+                    "scale": 0.0001,
+                    "signed": "n",
+                    "unit": "Volts"
+                }
+            ]
+        },
+        {
+            "name": "CellUndervoltage",
+            "severity": "Warning",
+            "description": "Cell voltage is below its safe limit specified by the manucturer datasheet.",
+            "data": [
+                {
+                    "name": "CellID",
+                    "appType": "uint8_t",
+                    "length": 8,
+                    "signed": "n"
+                },
+                {
+                    "name": "CellVoltage",
+                    "appScale": 0.0001,
+                    "appType": "uint16_t",
+                    "length": 16,
+                    "scale": 0.0001,
+                    "signed": "n",
+                    "unit": "Volts"
+                }
+            ]
+        },
+        {
+            "name": "CellVoltageOORH",
+            "severity" : "Caution",
+            "description": "Cell voltage measurement is above plausible measuremnt range.",
+            "data": [
+                {
+                    "name": "CellID",
+                    "appType": "uint8_t",
+                    "length": 8,
+                    "signed": "n"
+                },
+                {
+                    "name": "CellVoltage",
+                    "appType": "uint16_t",
+                    "appScale": 0.0001,
+                    "length": 16,
+                    "scale": 0.0001,
+                    "signed": "n",
+                    "unit": "Volts"
+                }
+            ]
+        },
+        {
+            "name": "CellVoltageOORL",
+            "severity": "Caution",
+            "description": "Cell voltage is below plausible measurement range.",
+            "data": [
+                {
+                    "name": "CellID",
+                    "appType": "uint8_t",
+                    "length": 8,
+                    "signed": "n"
+                },
+                {
+                    "name": "CellVoltage",
+                    "appType": "uint16_t",
+                    "appScale": 0.0001,
+                    "length": 16,
+                    "scale": 0.0001,
+                    "signed": "n",
+                    "unit": "Volts"
+                }
+            ]
+        },
+        {
+            "name": "CellOvertemperature",
+            "severity": "Warning",
+            "description": "Cell Temperature is above its safe limit specified by the manucturer datasheet.",
+            "data": [
+                {
+                    "name": "CellID",
+                    "appType": "uint8_t",
+                    "length": 8,
+                    "signed": "n"
+                },
+                {
+                    "name": "CellTemperature",
+                    "appType": "int8_t",
+                    "length": 8,
+                    "signed": "y",
+                    "unit": "deg C"
+                }
+            ]
+        },
+        {
+            "name": "CellUndertemperature",
+            "severity": "Warning",
+            "description": "Cell temperature is below its safe limit specified by the manufacturer datasheet.",
+            "data": [
+                {
+                    "name": "CellID",
+                    "appType": "uint8_t",
+                    "length": 8,
+                    "signed": "n"
+                },
+                {
+                    "name": "CellTemperature",
+                    "appType": "int8_t",
+                    "length": 8,
+                    "signed": "y",
+                    "unit": "deg C"
+                }
+            ]
+        },
+        {
+            "name": "CellTemperatureAbove60degC",
+            "severity": "Warning",
+            "description": "Cell temperautre is above the competition limit of 60 deg C. AIRs don't have to open, but cell temperature cannot fo above this limit.",
+            "data": [
+                {
+                    "name": "CellID",
+                    "appType": "uint8_t",
+                    "length": 8,
+                    "signed": "n"
+                },
+                {
+                    "name": "CellTemperature",
+                    "appType": "int8_t",
+                    "length": 8,
+                    "signed": "y",
+                    "unit": "deg C"
+                }
+            ]
+        },
+        {
+            "name": "CellTemperatureLostSensors",
+            "severity": "Warning",
+            "description": "Enough cell temperture measurements are out of range that we are monitoring less than 20% of temperatures.",
+            "data":[
+                {
+                    "name": "LostSensors",
+                    "appType": "uint8_t",
+                    "length": 8,
+                    "signed": "n"
+                }
+            ]
+        },
+        {
+            "name": "CellTemperatureOORH",
+            "severity": "Alert",
+            "description": "Cell temperature measurement above plausible range.",
+            "data": [
+                {
+                    "name": "CellID",
+                    "appType": "uint8_t",
+                    "length": 8,
+                    "signed": "n"
+                },
+                {
+                    "name": "SensorVoltage",
+                    "appType": "uint16_t",
+                    "appScale": 0.0001,
+                    "length": 16,
+                    "scale": 0.0001,
+                    "signed": "n",
+                    "unit": "Volts"
+                }
+            ]
+        },
+        {
+            "name": "CellTemperatureOORL",
+            "severity": "Alert",
+            "description": "Cell temperature measurement below plausible range.",
+            "data": [
+                {
+                    "name": "CellID",
+                    "appType": "uint8_t",
+                    "length": 8,
+                    "signed": "n"
+                },
+                {
+                    "name": "SensorVoltage",
+                    "appType": "uint16_t",
+                    "appScale": 0.0001,
+                    "length": 16,
+                    "scale": 0.0001,
+                    "signed": "n",
+                    "unit": "Volts"
+                }
+            ]
+        },
+        {
+            "name": "ChargerMIA",
+            "severity": "Warning",
+            "description": "Lost CAN communication with the charger."
+        },
+        {
+            "name": "ChargerConnected",
+            "severity": "Flag",
+            "description": "BMS is communicating with the charger."
+        },
+        {
+            "name": "ChargeCurrentLimitOver",
+            "severity": "Warning",
+            "description": "Accumulated current over the charge current limit exceeded threshold.",
+            "data": [
+                {
+                    "name": "ChargeCurrentLimit",
+                    "appScale": 1,
+                    "appType": "uint16_t",
+                    "length": 16,
+                    "scale": 1,
+                    "signed": "n",
+                    "unit": "Amps"
+                },
+                {
+                    "name": "PackI",
+                    "appScale": 1,
+                    "appType": "float",
+                    "length": 16,
+                    "scale": 1,
+                    "signed": "y",
+                    "unit": "Amps"
+                }
+            ]
+        },
+        {
+            "name": "DischargeCurrentLimitOver",
+            "severity": "Warning",
+            "description": "Accumulated current over the discharge current limit exceeded threshold.",
+            "data": [
+                {
+                    "name": "DischargeCurrentLimit",
+                    "appScale": 1,
+                    "appType": "uint16_t",
+                    "length": 16,
+                    "scale": 1,
+                    "signed": "n",
+                    "unit": "Amps"
+                },
+                {
+                    "name": "PackI",
+                    "appScale": 1,
+                    "appType": "float",
+                    "length": 16,
+                    "scale": 1,
+                    "signed": "y",
+                    "unit": "Amps"
+                }
+            ]
+        },
+        {
+            "name": "ChargerFault",
+            "severity": "Warning",
+            "description": "The charger requested the load to be disconnected. The charger follows J1939 diagnostics and we do not currently have the fault code list for it."
+        },
+        {
+            "name": "ChargeCompleted",
+            "severity": "Warning",
+            "description": "The charge current limit is below the charge completed cutoff."
+        },
+        {
+            "name": "DischargeCompleted",
+            "severity": "Warning",
+            "description": "The discharge current limit is below the discharge completed cutoff."
+        },
+        {
+            "name": "CurrentSensorOORH",
+            "severity": "Caution",
+            "description": "The current sensor measurement is above its plausible range. This could be critical because the Brake Plausibily Device may no longer be functioning correctly, but the BPD has its own protection for this.",
+            "data": [
+                {
+                    "name": "SensorVoltage",
+                    "appScale": 1,
+                    "appType": "uint16_t",
+                    "length": 16,
+                    "scale": 0.0001,
+                    "signed": "n",
+                    "unit": "Amps"
+                }
+            ]
+        },
+        {
+            "name": "CurrentSensorOORL",
+            "severity": "Caution",
+            "description": "The current sensor measurement is below its plausible range. This could be critical because the Brake Plausibily Device may no longer be functioning correctly, but the BPD has its own protection for this.",
+            "data": [
+                {
+                    "name": "SensorVoltage",
+                    "appScale": 1,
+                    "appType": "uint16_t",
+                    "length": 16,
+                    "scale": 0.0001,
+                    "signed": "n",
+                    "unit": "Amps"
+                }
+            ]
+        },
+        {
+            "name": "PowerStageOpen",
+            "severity": "Alert",
+            "description": "The BMS has not yet closed its powerstage in the Shutdown Circuit, or it has opened it due to a Warning level fault."
+        },
+        {
+            "name": "BalancingActive",
+            "severity": "Flag",
+            "description": "The BMS is balancing cells."
+        },
+        {
+            "name": "AuxMIA",
+            "severity": "Alert",
+            "description": "Lost CAN communication with the AuxMCU. This is critical during charging because the BMS needs to command the charger to turn off if it losses communication "
+        },
+        {
+            "name": "PowerStageFailure",
+            "severity": "Warning",
+            "description": "The BMS powerstage is open and current is flowing. The BMS powerstage is welded shut."
+        },
+        {
+            "name": "CellHighImpedance",
+            "severity": "Alert",
+            "description": "Cell has high impedance. This could be due to a bad connection or cell aging.",
+            "data": [
+                {
+                    "name": "CellID",
+                    "appType": "uint8_t",
+                    "length": 8,
+                    "signed": "n"
+                },
+                {
+                    "name": "Resistance",
+                    "appScale": 0.1,
+                    "appType": "uint16_t",
+                    "length": 16,
+                    "scale": 0.1,
+                    "signed": "n",
+                    "unit": "mOhms"
+                }
+            ]
+        },
+        {
+            "name": "isoSPIPECError",
+            "severity": "Warning",
+            "description": "Message recieved from the Battery Slave Board was corrupted. This error occurs when there is communication loss with a board."
+        },
+        {
+            "name": "SelfTestError",
+            "severity": "Warning",
+            "description": "LTC6811 returned self check failure."
+        },
+        {
+            "name": "VehicleIdle",
+            "severity": "Flag",
+            "description": "No power transfer for some amount of time."
+        },
+        {
+            "name": "InverterSDCOpenRequest",
+            "severity": "Warning",
+            "description": "The Inverter requested the Shutdown circuit be open.",
+            "data": [
+                {
+                    "name": "InverterID",
+                    "appType": "uint8_t",
+                    "length": 8,
+                    "signed": "n"
+                }
+            ]
+        },
+        {
+            "name": "VoltageFailsafeMode",
+            "severity": "Caution",
+            "description": "Lost voltage sense"
+        },
+        {
+            "name": "CurrentFailsafeMode",
+            "severity": "Caution",
+            "description": "Lost current sense."
+        },
+        {
+            "name": "StartupFailure",
+            "severity": "Alert",
+            "description": "The BMS failed to close its powerstage on startup."
+        },
+        {
+            "name": "ChargerEnabled",
+            "severity": "Flag",
+            "description": "The BMS has enabled the charger and is charging."
+        },
+        {
+            "name": "ChargingTimeout",
+            "severity": "Warning",
+            "description": "The battery has been charging for more than 2 hours."
+        }
+    ]
+}
